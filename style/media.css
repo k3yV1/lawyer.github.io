@@ -1,566 +1,488 @@
-@media screen and (max-width: 1550px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: red;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-	}
-
-	#btn-call {
-    background-color: #ffc842;
-    border: none;
-    border-radius: 15px;
-    color: #000;
-    padding: 5px;
-    margin-top: 5px;
-}
-
-#btn-main-call {
+@media screen and (max-width: 1550px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: red;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    #btn-call {
+        background-color: #ffc842;
+        border: none;
+        border-radius: 15px;
+        color: #000;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    #btn-main-call {
+        top: 200px;
     text-transform: uppercase;
     background-color: #ffc842;
     color: #000;
     border: none;
     border-radius: 10px;
-    width: 425px;
-    height: 85px;
-}
-
-.items {
-    height: 87px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
+    }
+    .items {
+        height: 87px;
+        display: flex;
+        justify-content: center;
+    }
+    #item {
+        margin-right: 10px;
+    }
+    .lawyer {
+        height: 640px;
+        background-image: url(pictures/backgroundlawyer.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+    }
+    #txt {
+        width: 623px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 0 auto;
+        top: 300px;
+        color: #fff;
+    }
+    #author {
+        text-transform: uppercase;
+        margin: 0 auto;
+        position: relative;
+        width: 160px;
+        color: #fff;
+    }
+    #needhelp {
+        text-transform: uppercase;
+        color: #f1a42d;
+    }
+    .counter {
+        height: 300px;
+        border: 5px solid #000;
+        margin-top: 20px;
+        background-image: url(pictures/каунтер.png);
+    }
+    .counter #item {}
+    .block-items {
+        display: flex;
+        justify-content: center;
+    }
+    .lawyer .items {
+        margin-top: 440px;
+    }
+    .lawyer .items #item {
+        text-align: center;
+    }
+    .information {
+        height: 845px;
+        border: 5px solid green;
+    }
+    .price {
+        height: 350px;
+        border: 5px solid orange;
+    }
+    .block-price {
+        display: flex;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .advantages {
+        height: 1063px;
+        border: 5px solid pink;
+    }
+    #wishes {
+        text-transform: uppercase;
+        width: 720px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 85px;
+    }
+    #tr {
+        color: #f1a42d;
+    }
+    .advantages .items #item {
+        margin-top: 175px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #fd0;
+        height: 515px;
+        width: 495px;
+        margin-left: 100px;
+    }
+    .advice {
+        height: 555px;
+        margin-top: 180px;
+    }
+    .title {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: auto;
+    }
+    footer {
+        background-color: #eee5d8;
+        height: 450px;
+        border: 5px solid #fd0;
+    }
+    footer .items #item {
+        text-align: center;
+    }
+    #contact {
+        margin-top: 50px;
+    }
+    #sertificate {
+        margin-top: 50px;
+    }
+    iframe {
+        width: 284px;
+        height: 368px;
+        margin-top: 50px;
+        float: none;
+        margin-left: 30px;
+    }
+    #loc {
+        width: 20px;
+        height: 30px;
+        margin-right: 5px;
+        margin-top: 4px;
+    }
+    #facebook {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #phone {
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+        margin-right: 5px;
+    }
+    #ivko {
+        height: 575px;
+        float: right;
+    }
+    #owl {
+        height: 750px;
+        position: relative;
+    }
+    #pricelogo {
+        position: relative;
+        top: 20px;
+    }
+    #pricelogo img {
+        position: absolute;
+        margin: auto;
+    }
 }
 
-#item {
-    margin-right:  10px;
-}
-
-.lawyer {
-    height: 640px;
-    background-image: url(pictures/backgroundlawyer.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
-#txt {
-    width: 623px;
-    text-transform: uppercase;
-    position: relative;
-    margin: 0 auto;
-    top: 300px;
-    color: #fff;
-}
-
-#author {
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    width: 160px;
-    color: #fff;
-}
-
-#needhelp {
-    text-transform: uppercase;
-    color: #f1a42d;
-}
-
-.counter {
-    height: 300px;
-    border: 5px solid #000;
-    margin-top: 20px;
-    background-image: url(pictures/каунтер.png);
-}
-
-.counter #item {
-    
-}
-
-.block-items {
-    display: flex;
-    justify-content: center;
-}
-
-.lawyer .items {
-    margin-top: 440px;
-}
-
-.lawyer .items #item {
-    text-align: center;
-}
-
-.information {
-    height: 845px;
-    border: 5px solid green;
-}
-
-.price {
-    height: 350px;
-    border: 5px solid orange;
-}
-
-.block-price {
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
-}
-
-.advantages {
-    height: 1063px;
-    border: 5px solid pink;
-}
-
-#wishes {
-    text-transform: uppercase;
-    width: 720px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 85px;
-}
-
-#tr {
-    color: #f1a42d;
-}
-
-.advantages .items #item {
-    margin-top: 175px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid #fd0;
-    height: 515px;
-    width: 495px;
-    margin-left: 100px;
-}
-
-.advice {
-    height: 555px;
-
-    margin-top: 180px;
-}
-
-.title {
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: auto;
-}
-
-footer {
-    background-color: #eee5d8;
-    height: 450px;
-    border: 5px solid #fd0;
-}
-
-footer .items #item {
-    text-align: center;
-}
-
-#contact {
-    margin-top: 50px;
-}
-
-#sertificate {
-    margin-top: 50px;
-}
-
-iframe {
-    width: 284px;
-    height: 368px;
-    margin-top: 50px;
-    float: none;
-    margin-left: 30px;
-}
-
-#loc {
-    width: 20px;
-    height: 30px;
-    margin-right: 5px;
-    margin-top: 4px;
-}
-
-#facebook {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-#phone {
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-    margin-right: 5px;
-}
-
-#ivko {
-    height: 575px;
-    float: right;
-}
-
-
-#owl {
-    height: 750px;
-    position: relative;
-}
-
-#pricelogo {
-    position: relative;
-    top: 20px;
-}
-
-#pricelogo img{
-	position: absolute;
-	 margin: auto;
-
-	}
-}
-
-@media screen and (max-width: 1280px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: red;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
-
-	#btn-call {
-    background-color: #ffc842;
-    border: none;
-    border-radius: 15px;
-    color: #000;
-    padding: 5px;
-    margin-top: 5px;
-}
-
-#btn-main-call {
+@media screen and (max-width: 1280px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: red;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #btn-call {
+        background-color: #ffc842;
+        border: none;
+        border-radius: 15px;
+        color: #000;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    #btn-main-call {
+       top: 200px;
     text-transform: uppercase;
     background-color: #ffc842;
     color: #000;
     border: none;
     border-radius: 10px;
-    width: 425px;
-    height: 85px;
-}
-
-.items {
-    height: 87px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
+    }
+    .items {
+        height: 87px;
+        display: flex;
+        justify-content: center;
+    }
+    #item {
+        margin-right: 10px;
+    }
+    .lawyer {
+        height: 640px;
+        background-image: url(pictures/backgroundlawyer.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+    }
+    #txt {
+        width: 323px;
+        text-transform: uppercase;
+        position: relative;
+        margin: 0 auto;
+        top: 300px;
+        color: #fff;
+    }
+    #author {
+        text-transform: uppercase;
+        margin: 0 auto;
+        position: relative;
+        width: 160px;
+        color: #fff;
+    }
+    #needhelp {
+        text-transform: uppercase;
+        color: #f1a42d;
+    }
+    .counter {
+        height: 300px;
+        border: 5px solid #000;
+        margin-top: 20px;
+        background-image: url(pictures/каунтер.png);
+    }
+    .counter #item {
+        font-size: 10%;
+    }
+    .block-items {
+        display: flex;
+        justify-content: center;
+    }
+    .lawyer .items {
+        margin-top: 440px;
+    }
+    .lawyer .items #item {
+        text-align: center;
+    }
+    .information {
+        height: 845px;
+        border: 5px solid green;
+    }
+    .price {
+        height: 350px;
+        border: 5px solid orange;
+    }
+    .block-price {
+        display: flex;
+        margin-top: 80px;
+        justify-content: center;
+    }
+    .advantages {
+        height: 1063px;
+        border: 5px solid pink;
+    }
+    #wishes {
+        text-transform: uppercase;
+        width: 720px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 85px;
+    }
+    #tr {
+        color: #f1a42d;
+    }
+    .advantages .items #item {
+        display: block;
+        margin-top: 175px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid red;
+        height: 215px;
+        width: 695px;
+        margin-left: 100px;
+    }
+    .advice {
+        height: 555px;
+        margin-top: 180px;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    footer {
+        background-color: #eee5d8;
+        height: 450px;
+        border: 5px solid #fd0;
+    }
+    footer .items #item {
+        text-align: center;
+    }
+    #contact {
+        margin-top: 50px;
+    }
+    #sertificate {
+        margin-top: 50px;
+    }
+    iframe {
+        width: 284px;
+        height: 368px;
+        margin-top: 50px;
+        float: none;
+        margin-left: 30px;
+    }
+    #loc {
+        width: 20px;
+        height: 30px;
+        margin-right: 5px;
+        margin-top: 4px;
+    }
+    #facebook {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #phone {
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+        margin-right: 5px;
+    }
+    #ivko {
+        height: 527px;
+        float: right;
+        position: relative;
+    }
+    #owl {
+        height: 750px;
+        position: relative;
+    }
+    #pricelogo {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        top: 20px;
+    }
 }
 
-#item {
-    margin-right:  10px;
+@media screen and (max-width: 1024px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: green;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
-.lawyer {
-    height: 640px;
-    background-image: url(pictures/backgroundlawyer.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+@media screen and (max-width: 768px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: blue;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #ivko {
+        height: 525px;
+        float: right;
+        position: relative;
+    }
 }
 
-#txt {
-    width: 323px;
-    text-transform: uppercase;
-    position: relative;
-    margin: 0 auto;
-    top: 300px;
-    color: #fff;
+@media screen and (max-width: 600px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: purple;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
-#author {
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    width: 160px;
-    color: #fff;
+@media screen and (max-width: 480px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: pink;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
-#needhelp {
-    text-transform: uppercase;
-    color: #f1a42d;
-}
-
-.counter {
-    height: 300px;
-    border: 5px solid #000;
-    margin-top: 20px;
-    background-image: url(pictures/каунтер.png);
-}
-
-.counter #item {
-    font-size: 10%;
-}
-
-.block-items {
-    display: flex;
-    justify-content: center;
-}
-
-.lawyer .items {
-    margin-top: 440px;
-}
-
-.lawyer .items #item {
-    text-align: center;
-}
-
-.information {
-    height: 845px;
-    border: 5px solid green;
-}
-
-
-.price {
-    height: 350px;
-    border: 5px solid orange;
-}
-
-.block-price {
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
-}
-
-.advantages {
-    height: 1063px;
-    border: 5px solid pink;
-}
-
-#wishes {
-    text-transform: uppercase;
-    width: 720px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 85px;
-}
-
-#tr {
-    color: #f1a42d;
-}
-
-.advantages .items #item {
-	display: block;
-    margin-top: 175px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid red;
-    height: 215px;
-    width: 695px;
-    margin-left: 100px;
-}
-
-.advice {
-    height: 555px;
-    margin-top: 180px;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-
-footer {
-    background-color: #eee5d8;
-    height: 450px;
-    border: 5px solid #fd0;
-}
-
-footer .items #item {
-    text-align: center;
-}
-
-#contact {
-    margin-top: 50px;
-}
-
-#sertificate {
-    margin-top: 50px;
-}
-
-iframe {
-    width: 284px;
-    height: 368px;
-    margin-top: 50px;
-    float: none;
-    margin-left: 30px;
-}
-
-#loc {
-    width: 20px;
-    height: 30px;
-    margin-right: 5px;
-    margin-top: 4px;
-}
-
-#facebook {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-#phone {
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-    margin-right: 5px;
-}
-
-#ivko {
-    height: 527px;
-    float: right;
-    position: relative;
-}
-
-#owl {
-    height: 750px;
-    position: relative;
-}
-
-#pricelogo {
-	width: 60px;
-    height: 60px;
-    margin: auto;
-    top: 20px;
-}
-}
-
-@media screen and (max-width: 1024px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: green;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 768px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: blue;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
-
-	#ivko {
-    height: 525px;
-    float: right;
-    position: relative;
-}
-}
-
-@media screen and (max-width: 600px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: purple;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 480px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: pink;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 320px){
-	*{
-		transition: all 0.2s;
-	}
-	body{
-		width: 100%;
-	}
-
-	nav{
-	display: flex;
-    justify-content: center;
-    height: 65px;
-    background-color: yellow;
-	}
-
-	.main-container {
-    width: 100%;
-    margin: 0 auto;
-	}
+@media screen and (max-width: 320px) {
+    * {
+        transition: all 0.2s;
+    }
+    body {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 65px;
+        background-color: yellow;
+    }
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
 }

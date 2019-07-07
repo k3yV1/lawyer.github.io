@@ -9,14 +9,17 @@ body {
 }
 
 nav {
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 65px;
     background-color: #ffc842;
 }
-h3{
+
+h3 {
     color: #fff;
 }
+
 .nav-side li {
     display: inline-block;
     text-transform: uppercase;
@@ -31,7 +34,6 @@ header {
 .main-container {
     width: 1530px;
     margin: 0 auto;
-    height: 100%;
 }
 
 #btn-call {
@@ -43,15 +45,16 @@ header {
 }
 
 #btn-main-call {
-  text-transform: uppercase;
+      top: 200px;
+    text-transform: uppercase;
     background-color: #ffc842;
     color: #000;
     border: none;
     border-radius: 10px;
-    width: 425px;
-    height: 85px;
+    width: 300px;
+    height: 50px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -105,11 +108,11 @@ header {
 }
 
 .counter #item {
-   width: 180px;
-   display: flex;
-   justify-content: center;
-   position: relative;
-   top: 20px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
 }
 
 .block-items {
@@ -130,8 +133,14 @@ header {
     border: 5px solid green;
 }
 
-.information #item{
-    border: 2px solid #000;
+.information .items {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 120px;ye
+}
+
+.information #item {
+    margin-top: 20px;
 }
 
 .price {
@@ -181,11 +190,13 @@ header {
     height: 555px;
     margin-top: 180px;
 }
-.advice #item{
+
+.advice #item {
     margin-left: 10px;
     margin-top: 100px;
 }
-.advice img{
+
+.advice img {
     width: 100%;
 }
 
@@ -260,16 +271,16 @@ iframe {
     top: 20px;
 }
 
-#pricelogo img{
+#pricelogo img {
     position: absolute;
-     margin: auto;
-
+    margin: auto;
 }
-.yellowLine{
-   width: 120px;
+
+.yellowLine {
+    width: 125px;
     height: 10px;
-    background-color: rgba(255,255,0,0.5);
+    background-color: rgba(249, 191, 59, 0.6);
     position: relative;
-    left: 120px;
-    top: 12px;
+    left: 110px;
+    top: 30px;
 }
