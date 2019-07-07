@@ -14,7 +14,9 @@ nav {
     height: 65px;
     background-color: #ffc842;
 }
-
+h3{
+    color: #fff;
+}
 .nav-side li {
     display: inline-block;
     text-transform: uppercase;
@@ -29,6 +31,7 @@ header {
 .main-container {
     width: 1530px;
     margin: 0 auto;
+    height: 100%;
 }
 
 #btn-call {
@@ -102,7 +105,11 @@ header {
 }
 
 .counter #item {
-    font-size: 10%;
+   width: 180px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 20px;
 }
 
 .block-items {
@@ -173,7 +180,13 @@ header {
 .advice {
     height: 555px;
     margin-top: 180px;
-    border: 5px solid blue;
+}
+.advice #item{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.advice img{
+    width: 100%;
 }
 
 .title {
