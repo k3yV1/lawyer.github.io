@@ -14,10 +14,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>lawyer</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-4-grid@2.4.1/css/grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/css.css">
     <link rel="stylesheet" href="style/media.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
 </head>
 
 <body>
@@ -33,8 +34,8 @@
     <!--  -->
     <!-- Navigation -->
     <header>
-        <div class="main-container-fluid">
-            <div class="main-container items">
+        
+            <div class="container items">
 
                 <div class="item">
                     <img src="style/pictures/гео.png" alt="location" id="loc">
@@ -90,7 +91,7 @@
              <button class="navbar-toggle" data-toggle= "collapse" data-target=".navHeaderCollapse">f</button>
         </nav> -->
 
-        </div>
+        
         <div id="myForm">
             <form action="#">
                 <input type="text">lo
@@ -100,8 +101,8 @@
         </div>
     </header>
     <!-- Services -->
-    <section class="main-container-fluid lawyer">
-        <div class="main-container lawyer-inner ">
+    <section class="container-fluid lawyer">
+        <div class="container lawyer-inner ">
             <div class="left owl">
                 <img src="style/pictures/owl.png" alt="owl" id="owl" class="w100">
             </div>
@@ -115,8 +116,8 @@
         </div>
 
     </section>
-    <section class="main-container-fluid counter">
-        <div class="main-container counter-inner">
+    <section class="container-fluid counter">
+        <div class="container counter-inner">
             <div class="row">
                 <div class="col-md-3 item">
                     <div class="ico">
@@ -145,11 +146,11 @@
             </div>
         </div>
     </section>
-    <section class="main-container-fluid information">
+    <section class="container-fluid information">
         <div class="block-color-orange"></div>
         <div class="block-colol-black"></div>
         <div class="row">
-        	<div class="col-md-3 item">
+        	<div class="col-sm-6 col-lg-3 item">
         		<div class="info-title">у сфері цивільного права</div>
         		<div class="yellowLine"></div>
         		<div class="info-text">
@@ -159,7 +160,7 @@
                 - участь адвоката у судовому процесі по цивільним справам.
         		</div>
         	</div>
-        	<div class="col-md-3 item">
+        	<div class="col-sm-6 col-lg-3 item">
         		<div class="info-title">адвокат по сімейним справам</div>
         		<div class="yellowLine"></div>
         		<div class="info-text">
@@ -169,7 +170,7 @@
                  - встановлення факту спільного проживання
         		</div>
         	</div>
-        		<div class="col-md-3 item">
+        		<div class="col-sm-6 col-lg-3 item">
         		<div class="info-title">адвокат у кримінальному процесі</div>
         		<div class="yellowLine"></div>
         		<div class="info-text">
@@ -177,7 +178,7 @@
                  - захист обвинуваченого під час судового розгляду справи
         		</div>
         	</div>
-        		<div class="col-md-3 item">
+        		<div class="col-sm-6 col-lg-3 item">
         		<div class="info-title">адвокат з питань трудових справ і спорів</div>
         		<div class="yellowLine"></div>
         		<div class="info-text">
@@ -221,7 +222,7 @@
         <button id="btn-main-call" onclick="myFunction()">замовити</button>
 
     </section>
-    <section class="main-container-fluid price">
+    <section class="container-fluid price">
 
         <div class="section-title">
             ціни
@@ -236,7 +237,7 @@
         </div>
 
     </section>
-    <section class="main-container-fluid advantages">
+    <section class="container-fluid advantages">
 
         <div class="section-title">переваги</div>
         <div class="section-content">
@@ -275,7 +276,7 @@
         </div>
     </section>
 
-    <section class="main-container-fluid advice">
+    <section class="container-fluid advice">
         <div class="section-title">поради адвоката</div>
         <div class="section-content">
             <div class="row">
@@ -291,20 +292,20 @@
             </div>
         </div>
     </section>
-    <footer class="main-container-fluid footer">
-        <div class="main-container">
+    <footer class="container-fluid footer">
+        <div class="container">
             <div class="row">
-                <div class="col-md-3 item">
+                <div class="col-sm-6 col-lg-4 item">
                     <div class="row-text">Де мене знайти ?</div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.7906547719363!2d31.981131415128367!3d46.965803040016425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c96892e03377%3A0x44b630dc318f5a31!2z0YPQuy4g0KfQutCw0LvQvtCy0LAsIDIwLCDQndC40LrQvtC70LDQtdCyLCDQndC40LrQvtC70LDQtdCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA1NDAwMA!5e0!3m2!1sru!2sca!4v1562166881944!5m2!1sru!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.7906547719363!2d31.981131415128367!3d46.965803040016425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c96892e03377%3A0x44b630dc318f5a31!2z0YPQuy4g0KfQutCw0LvQvtCy0LAsIDIwLCDQndC40LrQvtC70LDQtdCyLCDQndC40LrQvtC70LDQtdCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA1NDAwMA!5e0!3m2!1sru!2sca!4v1562166881944!5m2!1sru!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
                 </div>
-                <div class="col-md-3 item">
+                <div class="col-sm-6 col-lg-4 item">
                     <div class="row-text">Контакти</div>
                     <div class="contacts">
                         +380930890735 +380957771701 i.ivko9999@gmail.com Україна, 54017, м.Миколаїв вул.Чкалова, б.20, офіс 3 Час роботи: 10.00 - 19.00 Понеділок - П'ятниця
                     </div>
                 </div>
-                <div class="col-md-3 item">
+                <div class="col-sm-6 col-lg-4 item">
                     <div class="row-text">Сертифікати</div>
                     <div class="footer-ico">
                         <img src="style/resources/сертифікати.png" alt="">

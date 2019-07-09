@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1500px) {
     .lawyer-inner .left{
         width: 500px;
@@ -9,6 +10,12 @@
     }
     .lawyer-inner .right{
         width: 500px;
+    }
+}
+@media (min-width: 1200px){}
+    .container {
+   
+      max-width: 1520px;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -61,5 +68,8 @@
         width: 230px;
         bottom: 390px;
         right: -20px;
+    }
+    header .items{
+        display: none;
     }
 }
