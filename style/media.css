@@ -11,9 +11,55 @@
         width: 500px;
     }
 }
-@media screen and (max-width: 1200px) {}
-@media screen and (max-width: 968px) {}
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 1200px) {
+.contacts{
+    margin-left: 70px;
+    }
 }
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 968px) {
+    .lawyer-inner .right{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lawyer{
+        height: 500px;
+    }
+    .lawyer-inner .left{
+        width: 350px;
+        bottom: 250px;
+        left: -100px;
+    }
+    .lawyer-inner .center{
+        margin-bottom: 450px;
+    }
+    .lawyer-inner .right{
+        bottom: 340px;
+        width: 250px;
+    }
+    .main-container .item{
+        display: none;
+    }
+    .advantages-text{
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .lawyer{
+        height: 450px;
+    }
+    .lawyer-inner .left{
+        bottom: 300px;
+        width: 340px;
+    }
+    .center-title{
+        font-size: 80%;
+        width: 240px;
+    }
+    .lawyer-inner .right{
+        width: 230px;
+        bottom: 390px;
+        right: -20px;
+    }
+}
