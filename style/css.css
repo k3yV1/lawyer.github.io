@@ -20,6 +20,11 @@ h3 {
     color: #fff;
 }
 
+.w100,
+.img-responsive {
+    width: 100%
+}
+
 .nav-side li {
     display: inline-block;
     text-transform: uppercase;
@@ -31,9 +36,13 @@ header {
     height: 150px;
 }
 
+.main-container-fluid {
+    width: 100%;
+}
+
 .main-container {
-    width: 1530px;
-    margin: 0 auto;
+    max-width: 1520px;
+    margin: auto 30px;
 }
 
 #btn-call {
@@ -45,7 +54,7 @@ header {
 }
 
 #btn-main-call {
-      top: 200px;
+    top: 200px;
     text-transform: uppercase;
     background-color: #ffc842;
     color: #000;
@@ -59,18 +68,19 @@ header {
     justify-content: center;
 }
 
-.items {
+header .items {
     height: 87px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-#item {
-    margin-right: 255px;
+.section-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
 
 .lawyer {
-    height: 840px;
     background-image: url(pictures/backgroundlawyer.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -78,21 +88,87 @@ header {
     background-size: cover;
 }
 
-#txt {
-    width: 623px;
-    text-transform: uppercase;
+.lawyer-inner {
+    height: 840px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     position: relative;
-    margin: 0 auto;
-    top: 300px;
-    color: #fff;
 }
 
-#author {
-    text-transform: uppercase;
-    margin: 0 auto;
-    position: relative;
-    width: 160px;
-    color: #fff;
+.lawyer-inner .left {
+    position: absolute;
+    position: absolute;
+    width: 650px;
+    bottom: -140px;
+    left: -140px;
+}
+
+.lawyer-inner .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.lawyer-inner .center .center-title {}
+
+.lawyer-inner .center .center-subtitle {
+    text-align: right;
+}
+
+.lawyer-inner .right {
+    position: absolute;
+    width: 650px;
+    bottom: 0px;
+    right: 0;
+}
+
+.counter {
+    /* border: 5px solid #000; */
+    margin-top: 20px;
+    background-image: url(pictures/каунтер.png);
+}
+
+.counter-inner {
+    min-height: 300px;
+    padding: 30px;
+}
+
+.counter .item .ico {
+    width: 100px;
+    height: 100px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.row-title {
+    display: flex;
+    justify-content: center;
+}
+
+.row .item {
+    margin-top: 100px;
+    margin: 10px auto;
 }
 
 #needhelp {
@@ -100,25 +176,39 @@ header {
     color: #f1a42d;
 }
 
-.counter {
-    height: 300px;
-    border: 5px solid #000;
-    margin-top: 20px;
-    background-image: url(pictures/каунтер.png);
+.num {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+
 }
 
-.counter #item {
-    width: 180px;
+.text {
+   color: #fff;
+    width: 120px;
     display: flex;
+    text-align: center;
     justify-content: center;
-    position: relative;
-    top: 20px;
+    flex-direction: column;
 }
 
 .block-items {
     display: flex;
     justify-content: center;
 }
+
+.navbar-nav {
+    position: relative;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 
 .lawyer .items {
     margin-top: 440px;
@@ -128,15 +218,20 @@ header {
     text-align: center;
 }
 
+.center-subtitle {
+    margin-top: 10px;
+    color: #fff;
+}
+
 .information {
-    height: 845px;
-    border: 5px solid green;
+    height: 750px;
 }
 
 .information .items {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 120px;ye
+    justify-content: center;
+    margin-top: 120px;
+    ye
 }
 
 .information #item {
@@ -144,25 +239,47 @@ header {
 }
 
 .price {
-    height: 350px;
-    border: 5px solid orange;
+    height: 450px;
 }
 
 .block-price {
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
+    position: relative;
+    top: 80px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .advantages {
-    height: 1063px;
-    margin-top: 185px;
-    border: 5px solid pink;
+    height: 760px;
+}
+
+.advantages .items #item {
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 220px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0px 1px 0px 6px rgba(214, 214, 214, 0.21);
+    -moz-box-shadow: 0px 1px 0px 6px rgba(214, 214, 214, 0.21);
+    box-shadow: 0px 1px 0px 6px rgba(214, 214, 214, 0.21);
+    height: max-content;
+    padding: 50px;
+}
+
+.advantages img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.advantages p {
+    margin-top: 60px;
 }
 
 #wishes {
     text-transform: uppercase;
-    width: 720px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     padding-top: 85px;
@@ -172,34 +289,12 @@ header {
     color: #f1a42d;
 }
 
-.advantages .items #item {
-    margin-top: 175px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid #000;
-    height: 515px;
-    width: 495px;
-    margin-left: 120px;
-}
-
 .advantages #item {
     margin-top: 165px;
 }
-
-.advice {
-    height: 555px;
-    margin-top: 180px;
+.advantages-text{
+    text-transform: uppercase;
 }
-
-.advice #item {
-    margin-left: 10px;
-    margin-top: 100px;
-}
-
-.advice img {
-    width: 100%;
-}
-
 .title {
     display: flex;
     justify-content: center;
@@ -210,17 +305,22 @@ header {
 footer {
     background-color: #eee5d8;
     height: 650px;
-    border: 5px solid #fd0;
 }
 
 footer .items #item {
     text-align: center;
 }
 
-#contact {
+.contacts {
+    display: flex;
+    width: 200px;
     margin-top: 50px;
+    flex-direction: column;
 }
-
+.row-text{
+    display: flex;
+    justify-content: center;
+}
 #sertificate {
     margin-top: 50px;
 }
@@ -230,7 +330,11 @@ iframe {
     height: 468px;
     margin-top: 50px;
 }
-
+.footer-ico{
+        display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 #loc {
     width: 20px;
     height: 30px;
@@ -249,18 +353,6 @@ iframe {
     height: 20px;
     margin-top: 2px;
     margin-right: 5px;
-}
-
-#ivko {
-    height: 775px;
-    float: right;
-}
-
-#owl {
-    height: 1050px;
-    position: relative;
-    right: 110px;
-    top: -92px;
 }
 
 #pricelogo {
@@ -283,4 +375,14 @@ iframe {
     position: relative;
     left: 110px;
     top: 30px;
+}
+
+#myForm {
+    display: none;
+}
+
+.block-color-oragne {
+    width: 300px;
+    height: 300px;
+    background-color: #f1a42d;
 }

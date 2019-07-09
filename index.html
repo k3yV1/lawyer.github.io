@@ -3,172 +3,327 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta id="vp" name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        if (screen.width < 550) {
+            var mvp = document.getElementById('vp');
+            mvp.setAttribute('content', 'width=550');
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>lawyer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-4-grid@2.4.1/css/grid.min.css">
     <link rel="stylesheet" href="style/css.css">
     <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+    <!--  -->
+    <div class="wrapper">
+        <div class="header"></div>
+        <section></section>
+        <section></section>
+        <section></section>
+        <div class="footer"></div>
+
+    </div>
+    <!--  -->
     <!-- Navigation -->
     <header>
-        <div class="main-container">
-            <div class="items">
-                <img src="style/pictures/гео.png" alt="location" id="loc">
-                <div id="item"><b>м.Миколаїв</b>
-                    <br>вул. Чкалова 20, оф. 20 поверх 3</div>
-                <div id="item"><b>Режим роботи</b>
+        <div class="main-container-fluid">
+            <div class="main-container items">
+
+                <div class="item">
+                    <img src="style/pictures/гео.png" alt="location" id="loc">
+                    <b>м.Миколаїв</b>
+                    <br>вул. Чкалова 20, оф. 20 поверх 3
+                </div>
+
+                <div class="item"><b>Режим роботи</b>
                     <br>Пн - Пт: 10.00 до 19.00
-                    <br>Сб-Нд: Вихідні</div>
-                <img src="style/pictures/fc.png" alt="facebook" id="facebook">
-                <img src="style/pictures/телефон.png" alt="phone" id="phone">
-                <div id="item">+38093 089 07 35
+                    <br>Сб-Нд: Вихідні
+                </div>
+
+                <div class="item">
+                    <img src="style/pictures/fc.png" alt="facebook" id="facebook">
+                    <img src="style/pictures/телефон.png" alt="phone" id="phone"> +38093 089 07 35
                     <br>
-                    <button id="btn-call">Замовити дзвінок</button>
+                    <button id="btn-call" onclick="myFunction()">Замовити дзвінок</button>
                 </div>
             </div>
             <!-- Navigation -->
-        </div>
-        <nav class="nav-side">
+            <nav class="navbar navbar-expand-md navbar-dark bg-orange sticky-top">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse_target">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navbar-dark">
+                            <a href="#" class="nav-link ">головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">послуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">ціни</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">переваги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">порада адвоката</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--  <nav class="nav-side" id="mySidebar">
             <ul>
-                <li>головна</li>
-                <li>послуги</li>
-                <li>ціни</li>
-                <li>переваги</li>
-                <li>порада адвоката</li>
+                <li><a href="#">головна</a></li>
+                <li><a href="#">послуги</a></li>
+                <li><a href="#">ціни</a></li>
+                <li><a href="#">переваги</a></li>
+                <li><a href="#">порада адвоката</a></li>
             </ul>
-        </nav>
+             <button class="navbar-toggle" data-toggle= "collapse" data-target=".navHeaderCollapse">f</button>
+        </nav> -->
+
+        </div>
+        <div id="myForm">
+            <form action="#">
+                <input type="text">lo
+                <input type="text">x
+                <input type="text">s
+            </form>
+        </div>
     </header>
     <!-- Services -->
-    <section class="lawyer">
-        <div class="main-container">
-            <h3 id="txt">"не залишайтесь зі своїми проблемами наодинці, звертайтесь за професійною допомогою"</h3>
-            <p id="author">адвокат лілія івко</p>
-            <img src="style/pictures/owl.png" alt="owl" id="owl">
-            <img src="style/pictures/photo.png" alt="photo" id="ivko">
+    <section class="main-container-fluid lawyer">
+        <div class="main-container lawyer-inner ">
+            <div class="left owl">
+                <img src="style/pictures/owl.png" alt="owl" id="owl" class="w100">
+            </div>
+            <div class="center text">
+                <h3 class="center-title">не залишайтесь зі своїми проблемами наодинці, звертайтесь за професійною допомогою"</h3>
+                <p class="center-subtitle">адвокат лілія івко</p>
+            </div>
+            <div class="right ivko">
+                <img src="style/pictures/photo.png" alt="photo" id="ivko" class="w100">
+            </div>
         </div>
+
     </section>
-    <section class="counter">
-        <div class="main-container">
-            <div class="items">
-                <div id="item">
-                    <img src="style/resources/4.png" alt="">
+    <section class="main-container-fluid counter">
+        <div class="main-container counter-inner">
+            <div class="row">
+                <div class="col-md-3 item">
+                    <div class="ico">
+                        <img src="style/resources/4.png" alt="">
+                    </div>
+                    <div class="num">1500</div>
+                    <div class="text">задоволених клієнтів</div>
+
                 </div>
-                <div id="item">
+                <div class="col-md-3 item">
                     <img src="style/resources/3.png" alt="">
+                    <div class="num">960</div>
+                    <div class="text">виграних справ</div>
+
                 </div>
-                <div id="item">
+                <div class="col-md-3 item">
                     <img src="style/resources/2.png" alt="">
+                    <div class="num">10</div>
+                    <div class="text">років юридичної практики</div>
                 </div>
-                <div id="item">
+                <div class="col-md-3 item">
                     <img src="style/resources/5.png" alt="">
+                    <div class="num">800</div>
+                    <div class="text">звернулися по рекомендації</div>
                 </div>
             </div>
-            <h3>1500</h3>
         </div>
     </section>
-    <section class="information">
-        <div class="main-container">
-            <div class="items">
-                <div class="yellowLine"></div>
-                <div id="item">
-                у сфері цивільного права<br>
-                - консультація з правових питань<br>
-                - складання подання та юридичний супровід позову, заяв. <br>
-                - адвокатьский запит <br>
-                - участь адвоката у судовому процесі по цивільним справам. 
-            	</div>
-                <div class="yellowLine"></div>
-                <div id="item">
-                адвокат по сімейним справам<br>
-                - консультація<br>
-                - юридичний супровід документів при розлученні,аліменти<br>
-                - поділ майна подружжя<br>
-                - встановлення факту спільного проживання
-            	</div>
-            </div>
-            <div class="items">
-            	<div class="yellowLine"></div>
-                <div id="item">
-                адвокат у кримінальному процесі<br>
-                - захист підозрюваного на стадії досудового розслідування<br>
-                - захист обвинуваченого під час судового розгляду справи
-            	</div>
-                <div class="yellowLine"></div>
-                <div id="item">
-                адвокат з питань трудових справ і спорів<br>
-                - захист підозрюваного на стадії досудового розслідування<br>
-                - захист обвинуваченого під час судового розгляду справи
-            	</div>
-            </div>
-            <button id="btn-main-call">замовити</button>
+    <section class="main-container-fluid information">
+        <div class="block-color-orange"></div>
+        <div class="block-colol-black"></div>
+        <div class="row">
+        	<div class="col-md-3 item">
+        		<div class="info-title">у сфері цивільного права</div>
+        		<div class="yellowLine"></div>
+        		<div class="info-text">
+        		- консультація з правових питань
+                - складання подання та юридичний супровід позову, заяв.
+ 				- адвокатьский запит
+                - участь адвоката у судовому процесі по цивільним справам.
+        		</div>
+        	</div>
+        	<div class="col-md-3 item">
+        		<div class="info-title">адвокат по сімейним справам</div>
+        		<div class="yellowLine"></div>
+        		<div class="info-text">
+        			 - консультація
+                 - юридичний супровід документів при розлученні,аліменти
+                 - поділ майна подружжя
+                 - встановлення факту спільного проживання
+        		</div>
+        	</div>
+        		<div class="col-md-3 item">
+        		<div class="info-title">адвокат у кримінальному процесі</div>
+        		<div class="yellowLine"></div>
+        		<div class="info-text">
+        			- захист підозрюваного на стадії досудового розслідування
+                 - захист обвинуваченого під час судового розгляду справи
+        		</div>
+        	</div>
+        		<div class="col-md-3 item">
+        		<div class="info-title">адвокат з питань трудових справ і спорів</div>
+        		<div class="yellowLine"></div>
+        		<div class="info-text">
+        			- захист підозрюваного на стадії досудового розслідування
+                 - захист обвинуваченого під час судового розгляду справи
+        		</div>
+        	</div>
         </div>
-    </section>
-    <section class="price">
-        <div class="main-container">
-            <div class="title">
-                ціни
+       <!--  <div class="items">
+            <div class="yellowLine"></div>
+            <div class="item">
+                у сфері цивільного права
+                 - консультація з правових питань
+                 - складання подання та юридичний супровід позову, заяв.
+                 - адвокатьский запит
+                 - участь адвоката у судовому процесі по цивільним справам.
             </div>
-            <div id="pricelogo">
-                <img src="style/pictures/ціни.png" alt="price" id="dollar">
-            </div>
-            <div class="block-price">
-                <b>КЛІЄНТ:</b> Яка вартість Ваших послуг?
-                <br>
-                <b>АДВОКАТ ЛІЛІЯ ІВКО:</b> Вартість послуги залежить від складності
-                <br>питання, дій до вирішення питання та в якій формі буде надана консультація.
-                <br>Приблизна вартість консультаціх для фізичних осіб від 250грн.
-                <br>Для юродичних осіб від 450грн.
+            <div class="yellowLine"></div>
+            <div id="item">
+                адвокат по сімейним справам
+                 - консультація
+                 - юридичний супровід документів при розлученні,аліменти
+                 - поділ майна подружжя
+                 - встановлення факту спільного проживання
             </div>
         </div>
+        <div class="items">
+            <div class="yellowLine"></div>
+            <div class="item">
+                адвокат у кримінальному процесі
+                 - захист підозрюваного на стадії досудового розслідування
+                 - захист обвинуваченого під час судового розгляду справи
+            </div>
+            <div class="yellowLine"></div>
+            <div class="item">
+                адвокат з питань трудових справ і спорів
+                 - захист підозрюваного на стадії досудового розслідування
+                 - захист обвинуваченого під час судового розгляду справи
+            </div>
+        </div> -->
+        <button id="btn-main-call" onclick="myFunction()">замовити</button>
+
     </section>
-    <section class="advantages">
-        <div class="main-container">
-            <div class="title">переваги</div>
+    <section class="main-container-fluid price">
+
+        <div class="section-title">
+            ціни
+        </div>
+        <div id="pricelogo">
+            <img src="style/pictures/ціни.png" alt="price" id="dollar">
+        </div>
+        <div class="block-price">
+            <b>КЛІЄНТ:</b> Яка вартість Ваших послуг?
+            <br>
+            <b>АДВОКАТ ЛІЛІЯ ІВКО:</b> Вартість послуги залежить від складності >питання, дій до вирішення питання та в якій формі буде надана консультація. Приблизна вартість консультаціх для фізичних осіб від 250грн. Для юродичних осіб від 450грн.
+        </div>
+
+    </section>
+    <section class="main-container-fluid advantages">
+
+        <div class="section-title">переваги</div>
+        <div class="section-content">
             <div id="wishes">
-                <h1>не залишайтесь зі своїми <span id="tr">проблемами</span> наодинці, завжди є вихід - і я допоможу його знайти</h1>
+                <h1>не залишайтесь зі своїми <span id="tr">проблемами</span> наодинці, <br>завжди є вихід - і я допоможу його знайти</h1>
             </div>
-            <div class="items">
-                <div id="item">професіоналізм</div>
-                <div id="item">конфіденціальність</div>
-                <div id="item">персектива</div>
+            <div class="row">
+                <div class="col-md-3 item">
+                    <img src="style/resources/професіоналізм.png" alt="">
+                    <div class="row-title">
+                        <h1>професіаналізм</h1>
+                    </div>
+                    <div class="advantages-text">
+                        <p>при виконані своєї професійної діяльності, я , як адвокат керуюся тільки нормами закону, дотримуюся етики адвоката по відношенню до клієнта та опонента.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 item">
+                    <img src="style/resources/конфіденційність.png" alt="">
+                    <div class="row-title">
+                        <h1>конфіденційність</h1>
+                    </div>
+                    <div class="advantages-text">
+                        <p>ні за яких умов інформація про клієнта або справу,яку ве, не буде подано розголосу</p>
+                    </div>
+                </div>
+                <div class="col-md-3 item">
+                    <img src="style/resources/перспектива.png" alt="">
+                    <div class="row-title">
+                        <h1>перспектива</h1>
+                    </div>f
+                    <div class="advantages-text">
+                        <p>всі ризики і перспективи вирішення питання в правовому полі, озвучу відразу не змушуючи клієнта платити за "повітря". не даю марні надії про вирішення свідомо безперспективної справи.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="advice">
-        <div class="main-container">
-            <div class="title">поради адвоката</div>
-            <div class="items">
-                <div id="item">
-                    <img src="style/resources/житлоооо.jpg" alt="">
+
+    <section class="main-container-fluid advice">
+        <div class="section-title">поради адвоката</div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4 item">
+                    <img src="style/resources/житлоооо.jpg" alt="" class="w100">
                 </div>
-                <div id="item">
-                    <img src="style/resources/трудовойспор.jpg" alt="">
+                <div class="col-md-4 item">
+                    <img src="style/resources/трудовойспор.jpg" alt="" class="w100">
                 </div>
-                <div id="item">
-                    <img src="style/resources/спадкови.jpg" alt="">
+                <div class="col-md-4 item">
+                    <img src="style/resources/спадкови.jpg" alt="" class="w100">
                 </div>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="main-container-fluid footer">
         <div class="main-container">
-            <div class="items">
-                <div id="item">Де мене знайти ?
+            <div class="row">
+                <div class="col-md-3 item">
+                    <div class="row-text">Де мене знайти ?</div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.7906547719363!2d31.981131415128367!3d46.965803040016425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c96892e03377%3A0x44b630dc318f5a31!2z0YPQuy4g0KfQutCw0LvQvtCy0LAsIDIwLCDQndC40LrQvtC70LDQtdCyLCDQndC40LrQvtC70LDQtdCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0LjQvdCwLCA1NDAwMA!5e0!3m2!1sru!2sca!4v1562166881944!5m2!1sru!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div id="item">Контакти
-                    <div id="contact">
+                <div class="col-md-3 item">
+                    <div class="row-text">Контакти</div>
+                    <div class="contacts">
                         +380930890735 +380957771701 i.ivko9999@gmail.com Україна, 54017, м.Миколаїв вул.Чкалова, б.20, офіс 3 Час роботи: 10.00 - 19.00 Понеділок - П'ятниця
                     </div>
                 </div>
-                <div id="item">Сертифікати
-                    <div id="sertificate">
-                        Мої сертифікати, дипломи, тощо.
+                <div class="col-md-3 item">
+                    <div class="row-text">Сертифікати</div>
+                    <div class="footer-ico">
+                        <img src="style/resources/сертифікати.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myForm");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
