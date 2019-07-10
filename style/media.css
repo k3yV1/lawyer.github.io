@@ -27,9 +27,6 @@
     .lawyer-inner .right{
         width: 350px;
     }
-    .dm-modal{
-        width: 80%;
-    }
 }
 @media screen and (max-width: 768px) {
     .lawyer{
@@ -73,7 +70,7 @@
         left: -100px;
     }
     .dm-table{
-        width: 60%;
+
         margin: 0 auto;
     }
 }
@@ -113,5 +110,9 @@
     }
     .information .item{
         margin-left: 50px;
+    }
+    .sendBtn{
+        width: 100%;
+        margin-left: 0;
     }
 }
