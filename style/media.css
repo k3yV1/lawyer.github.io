@@ -12,20 +12,38 @@
         width: 500px;
     }
 }
-@media (min-width: 1200px){}
+@media (min-width: 1200px){
     .container {
-   
+
       max-width: 1520px;
     }
+
 }
 @media screen and (max-width: 1200px) {
-.contacts{
-    margin-left: 70px;
+    .contacts{
+        margin-left: 70px;
     }
 }
 @media screen and (max-width: 968px) {
     .lawyer-inner .right{
         width: 350px;
+    }
+    .price-dots-right{
+        top: 2717px;
+        width: 28%;
+
+    }
+    .price-dots-left{
+        top: 2717px;
+
+    }
+    .lawyer #triangle-down{
+        display: none;
+    }
+
+    header .container .phone-number{
+        margin-top: 20px;
+        margin-left: -30px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -33,9 +51,9 @@
         height: 500px;
     }
     .lawyer-inner .left{
-        width: 350px;
-        bottom: 250px;
-        left: -100px;
+        width: 325px;
+        bottom: 280px;
+        left: -40px;
     }
     .lawyer-inner .center{
         margin-bottom: 450px;
@@ -45,13 +63,13 @@
         width: 250px;
     }
     .main-container .item{
-        display: none;
+
     }
     .advantages-text{
         margin: 0 auto;
     }
     header .items{
-        display: none;
+
     }
     .block-colol-black{
         width: 15%;
@@ -73,27 +91,34 @@
 
         margin: 0 auto;
     }
+    .price-dots-left{
+        display: none;
+    }
+    .price-dots-right{
+        display: none;
+
+    }
 }
 @media screen and (max-width: 576px) {
     .lawyer{
         height: 450px;
     }
     .lawyer-inner .left{
-        bottom: 320px;
-        width: 245px;
-        margin-left: 35px;
+        bottom: 360px;
+        width: 200px;
+
     }
     .center-title{
         font-size: 80%;
         width: 240px;
     }
     .lawyer-inner .right{
-        width: 170px;
+        width: 160px;
         bottom: 390px;
-        right: -20px;
+        right: -15px;
     }
-    header .items{
-        display: none;
+    header .header-center-txt{
+        margin-right: 120px;
     }
     .block-color-orange{
         height: 5%;
@@ -114,5 +139,12 @@
     .sendBtn{
         width: 100%;
         margin-left: 0;
+    }
+    header #loc{
+        margin-right: 20px;
+    }
+
+    header .container .phone-number{
+        margin-left: -85px;
     }
 }
