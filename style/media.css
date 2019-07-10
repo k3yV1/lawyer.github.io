@@ -27,6 +27,9 @@
     .lawyer-inner .right{
         width: 350px;
     }
+    .dm-modal{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 768px) {
     .lawyer{
@@ -48,7 +51,6 @@
         display: none;
     }
     .advantages-text{
-        width: 250px;
         margin: 0 auto;
     }
     header .items{
@@ -70,21 +72,26 @@
         bottom: 350px;
         left: -100px;
     }
+    .dm-table{
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 576px) {
     .lawyer{
         height: 450px;
     }
     .lawyer-inner .left{
-        bottom: 300px;
-        width: 340px;
+        bottom: 320px;
+        width: 245px;
+        margin-left: 35px;
     }
     .center-title{
         font-size: 80%;
         width: 240px;
     }
     .lawyer-inner .right{
-        width: 230px;
+        width: 170px;
         bottom: 390px;
         right: -20px;
     }

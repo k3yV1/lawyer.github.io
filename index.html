@@ -22,16 +22,6 @@
 </head>
 
 <body>
-    <!--  -->
-    <div class="wrapper">
-        <div class="header"></div>
-        <section></section>
-        <section></section>
-        <section></section>
-        <div class="footer"></div>
-
-    </div>
-    <!--  -->
     <!-- Navigation -->
     <header>
 
@@ -52,7 +42,29 @@
                     <img src="style/pictures/fc.png" alt="facebook" id="facebook">
                     <img src="style/pictures/телефон.png" alt="phone" id="phone"> +38093 089 07 35
                     <br>
-                    <button id="btn-call" onclick="myFunction()">Замовити дзвінок</button>
+                    <button id="btn-call"><a href="#win1">Замовити дзвінок</a></button>
+                    <div class="dm-overlay" id="win1">
+                        <div class="dm-table">
+                            <div class="dm-cell">
+                                <div class="dm-modal">
+                                    <a href="#close" class="close"></a>
+                                    <div class="dm-title">
+                                        <h3>замовити послугу</h3>
+                                    </div>
+                                    <div class="form">
+                                        <form action="#" class="block-form">
+                                            <input type="text" placeholder="Ваше ім'я" class="name">
+                                            <input type="text" placeholder="Контактний номер" class="number">
+                                            <textarea name="message" id="text-message" cols="30" rows="10" placeholder="Повідомлення">
+
+                                            </textarea>
+                                            <input type="submit" value="Відправити" class="sendBtn">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Navigation -->
@@ -80,13 +92,6 @@
                     </ul>
                 </div>
             </nav>
-        <div id="myForm">
-            <form action="#">
-                <input type="text">lo
-                <input type="text">x
-                <input type="text">s
-            </form>
-        </div>
     </header>
     <!-- Services -->
     <section class="container-fluid lawyer">
@@ -184,7 +189,7 @@
                 </div>
             </div>
         </div>
-        <button id="btn-main-call" onclick="myFunction()">замовити</button>
+        <button id="btn-main-call"><a href="#win1">замовити</a></button>
 
     </section>
     <section class="container-fluid price">
@@ -280,16 +285,6 @@
         </div>
     </footer>
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myForm");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
 </body>
 
 </html>

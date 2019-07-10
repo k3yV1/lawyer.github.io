@@ -4,8 +4,17 @@
     outline: 0;
 }
 
+@font-face {
+    font-family: 'GothamProBold', 'GothamProLight', 'GothamProMedium', 'GothamProRegular';
+    src: url("fonts/GothamProBold.ttf");
+    src: url("fonts/GothamProLight.ttf");
+    src: url("fonts/GothamProMedium.ttf");
+    src: url("fonts/GothamProRegular.ttf");
+}
+
 body {
     width: 100%;
+    font-family: "GothamProBold","GothamProLight","GothamProMedium","GothamProRegular", Arial, sans-serif;
 }
 
 nav {
@@ -13,16 +22,15 @@ nav {
     display: flex;
     justify-content: center;
     height: 65px;
-    background-color: #ffc842;
+    background-color: #f1a42d;
 }
-
-h3 {
-    color: #fff;
-}
-
 .w100,
 .img-responsive {
     width: 100%
+}
+
+header .navbar-collapse{
+    background-color: #f1a42d;
 }
 .nav-side li {
     display: inline-block;
@@ -49,6 +57,11 @@ h3 {
     padding: 5px;
 }
 
+#btn-call > a{
+    text-decoration: none;
+    color: #000;
+}
+
 #btn-main-call {
     text-transform: uppercase;
     background-color: #ffc842;
@@ -62,6 +75,11 @@ h3 {
     display: flex;
     justify-content: center;
 }
+#btn-main-call > a{
+    text-decoration: none;
+    color: #000;
+}
+
 
 header .items {
     height: 87px;
@@ -130,6 +148,7 @@ header .navbar-dark .navbar-nav .nav-link{
 
 .lawyer-inner .center .center-subtitle {
     text-align: right;
+    text-transform: uppercase;
 }
 
 .lawyer-inner .right {
@@ -300,7 +319,9 @@ header .navbar-dark .navbar-nav .nav-link{
 }
 
 .advantages p {
-    margin-top: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 
 #wishes {
@@ -448,3 +469,217 @@ footer .items #item {
     margin-top: 160px;
     margin-left: 30px;
 }
+
+.dm-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.dm-title{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+/* активируем модальное окно */
+
+.dm-overlay:target {
+    display: block;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+/* блочная таблица */
+
+.dm-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+/* ячейка блочной таблицы */
+
+.dm-cell {
+    display: table-cell;
+    padding: 0 1em;
+    vertical-align: middle;
+    text-align: center;
+}
+/* модальный блок */
+
+.dm-modal {
+    display: inline-block;
+    width: 100%;
+    max-width: 50em;
+    background: #fff;
+    -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    color: #000;
+    text-align: left;
+}
+/* изображения в модальном окне */
+
+.dm-modal img {
+    width: 100%;
+    height: auto;
+}
+/* миниатюры изображений */
+
+.pl-left,
+.pl-right {
+    width: 25%;
+    height: auto;
+}
+/* миниатюра справа */
+
+.pl-right {
+    float: right;
+    margin: 5px 0 5px 15px;
+}
+/* миниатюра слева */
+
+.pl-left {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
+/* встраиваемое видео в модальном окне */
+
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* рисуем кнопарь закрытия */
+
+.close {
+    z-index: 9999;
+    float: right;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 26px;
+    cursor: pointer;
+}
+.close:after {
+    display: block;
+    border: 2px solid #cfd8dc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: 'X';
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+/* кнопка закрытия при наведении */
+
+.close:hover:after {
+    border-color: #fff;
+    color: #fff;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/* варианты фонвой заливки модального блока */
+
+.green {
+    background: #388e3c!important;
+}
+.cyan {
+    background: #0097a7!important;
+}
+.teal {
+    background: #00796b!important;
+}
+/* движуха при появлении блоков с содержанием */
+
+@-moz-keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+.block-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.sendBtn{
+    background-color: #f1a42d;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    text-align: center;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.name{
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.number{
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#text-message{
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+
