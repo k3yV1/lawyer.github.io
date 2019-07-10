@@ -51,6 +51,25 @@
         width: 250px;
         margin: 0 auto;
     }
+    header .items{
+        display: none;
+    }
+    .block-colol-black{
+        width: 15%;
+    }
+    .block-text{
+        font-size: 30px;
+    }
+    .dots{
+        z-index: 999;
+        background-image: radial-gradient(#212121 , transparent 10%), radial-gradient(#000000 10%, transparent 10%);
+        background-size: 70px 60px;
+        width: 67%;
+        height: 30%;
+        position: absolute;
+        bottom: 350px;
+        left: -100px;
+    }
 }
 @media screen and (max-width: 576px) {
     .lawyer{
@@ -71,5 +90,21 @@
     }
     header .items{
         display: none;
+    }
+    .block-color-orange{
+        height: 5%;
+        margin-top: 0;
+    }
+    .block-colol-black{
+        display: none;
+    }
+    .block-text{
+        display: none;
+    }
+    .block-row-item{
+        margin-top: 0;
+    }
+    .information .item{
+        margin-left: 50px;
     }
 }
