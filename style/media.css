@@ -25,6 +25,9 @@
     }
 }
 @media screen and (max-width: 968px) {
+    .dots{
+        display: none;
+    }
     .lawyer-inner .right{
         width: 350px;
     }

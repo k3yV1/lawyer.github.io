@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6beeff4-c399-4be9-94de-7c4f7a2bab70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="716" lean-forward="true" selection-start-line="716" selection-end-line="716" />
+            <state relative-caret-position="970">
+              <caret line="716" selection-start-line="716" selection-end-line="716" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state relative-caret-position="448">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -73,11 +71,11 @@
       <find>#win1</find>
       <find>.dm-ti</find>
       <find>.sen</find>
-      <find>.se</find>
       <find>#bt</find>
       <find>win1</find>
       <find>#b</find>
       <find>#loc</find>
+      <find>.se</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +88,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style/media.css" />
         <option value="$PROJECT_DIR$/style/css.css" />
+        <option value="$PROJECT_DIR$/style/media.css" />
       </list>
     </option>
   </component>
@@ -173,7 +171,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30024000" />
+    <option name="totallyTimeSpent" value="30247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -215,17 +213,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/media.css">
+    <entry file="file://$PROJECT_DIR$/style/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        <state relative-caret-position="970">
+          <caret line="716" selection-start-line="716" selection-end-line="716" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/css.css">
+    <entry file="file://$PROJECT_DIR$/style/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="716" lean-forward="true" selection-start-line="716" selection-end-line="716" />
+        <state relative-caret-position="448">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
