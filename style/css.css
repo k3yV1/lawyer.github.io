@@ -24,6 +24,13 @@ nav {
     height: 65px;
     background-color: #f1a42d;
 }
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    font-family: "GothamProBold", Arial, sans-serif;
+}
+
 .w100,
 .img-responsive {
     width: 100%
@@ -67,6 +74,10 @@ header .navbar-collapse{
     margin-left: 70px;
 }
 
+#btn-call:hover{
+    background: linear-gradient(to top, #F6EFD2, #ffc842);
+}
+
 #btn-call > a{
     text-decoration: none;
     color: #000;
@@ -85,6 +96,12 @@ header .navbar-collapse{
     display: flex;
     justify-content: center;
 }
+
+
+#btn-main-call:hover{
+    background: linear-gradient(to top, #F6EFD2, #ffc842);
+}
+
 #btn-main-call > a{
     text-decoration: none;
     color: #000;
@@ -423,6 +440,8 @@ footer .items #item {
 #loc {
     width: 20px;
     height: 30px;
+    position: absolute;
+    left: 60px;
 }
 
 #facebook {
@@ -692,6 +711,10 @@ footer .items #item {
     background: linear-gradient(to bottom, #F6EFD2, #ffc842);
 }
 
+.sendBtn:hover{
+    background: linear-gradient(to top, #F6EFD2, #ffc842);
+}
+    
 .name{
     background-color: #cccccc;
     border-radius: 10px;

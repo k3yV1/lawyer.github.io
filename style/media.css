@@ -42,8 +42,15 @@
         margin-top: 20px;
         margin-left: -30px;
     }
+    #loc{
+        left: 80px;
+    }
 }
 @media screen and (max-width: 768px) {
+    header .items{
+        display: flex;
+        justify-content: center;
+    }
     .lawyer{
         height: 500px;
     }
@@ -98,6 +105,9 @@
     .lawyer #triangle-down{
         display: none;
     }
+    #loc{
+        left: 30px;
+    }
 }
 @media screen and (max-width: 576px) {
     .lawyer{
@@ -117,9 +127,6 @@
         width: 160px;
         bottom: 390px;
         right: -15px;
-    }
-    header .header-center-txt{
-        margin-right: 120px;
     }
     .block-color-orange{
         height: 5%;
@@ -141,11 +148,12 @@
         width: 100%;
         margin-left: 0;
     }
-    header #loc{
-        margin-right: 20px;
-    }
 
     header .container .phone-number{
         margin-left: -85px;
+    }
+
+    #loc{
+        left: 40px;
     }
 }
