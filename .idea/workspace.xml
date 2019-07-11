@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="157">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -26,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="392">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+            <state relative-caret-position="553">
+              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -48,13 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>advantages</find>
-      <find>.information</find>
-      <find>.con</find>
-      <find>block-color-black</find>
-      <find>counte</find>
-      <find>row-2</find>
-      <find>.row</find>
       <find>.dm-mo</find>
       <find>h3</find>
       <find>.clo</find>
@@ -64,23 +57,41 @@
       <find>.dots</find>
       <find>.price</find>
       <find>.items</find>
-      <find>#btn</find>
       <find>#loc</find>
       <find>#bt</find>
       <find>header</find>
-      <find>header i</find>
       <find>dots</find>
+      <find>header i</find>
+      <find>foot</find>
+      <find>.block-r</find>
+      <find>.block-t</find>
+      <find>.block-col</find>
+      <find>.block-row</find>
+      <find>.block-te</find>
+      <find>.info-title</find>
+      <find>block-text</find>
+      <find>sec</find>
+      <find>secti</find>
+      <find>#btn</find>
+      <find>#win1</find>
+      <find>.dm-ti</find>
+      <find>.sen</find>
+      <find>win1</find>
+      <find>.se</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style/css.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/media.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/css.css" />
       </list>
     </option>
   </component>
@@ -162,18 +173,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22855000" />
+    <option name="totallyTimeSpent" value="27331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,27 +205,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/css.css">
+    <entry file="file://$PROJECT_DIR$/style/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="553">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="157">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/media.css">
+    <entry file="file://$PROJECT_DIR$/style/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
+        <state relative-caret-position="392">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
         </state>
       </provider>
     </entry>

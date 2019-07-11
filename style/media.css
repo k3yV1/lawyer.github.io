@@ -37,9 +37,6 @@
         top: 2717px;
 
     }
-    .lawyer #triangle-down{
-        display: none;
-    }
 
     header .container .phone-number{
         margin-top: 20px;
@@ -51,16 +48,16 @@
         height: 500px;
     }
     .lawyer-inner .left{
-        width: 325px;
-        bottom: 280px;
-        left: -40px;
+        width: 300px;
+        bottom: 270px;
+        left: -78px;
     }
     .lawyer-inner .center{
         margin-bottom: 450px;
     }
     .lawyer-inner .right{
         bottom: 340px;
-        width: 250px;
+        width: 220px;
     }
     .main-container .item{
 
@@ -75,7 +72,7 @@
         width: 15%;
     }
     .block-text{
-        font-size: 30px;
+        font-size: 20px;
     }
     .dots{
         z-index: 999;
@@ -96,7 +93,10 @@
     }
     .price-dots-right{
         display: none;
+    }
 
+    .lawyer #triangle-down{
+        display: none;
     }
 }
 @media screen and (max-width: 576px) {
@@ -104,8 +104,9 @@
         height: 450px;
     }
     .lawyer-inner .left{
-        bottom: 360px;
+        bottom: 340px;
         width: 200px;
+        left: -45px;
 
     }
     .center-title{

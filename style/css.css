@@ -5,14 +5,16 @@
 }
 
 @font-face {
-    font-family: 'GothamProBold', 'GothamProLight', 'GothamProMedium', 'GothamProRegular';
-    src: url("fonts/GothamProBold.ttf");
+    font-family: 'GothamProBold';
+    src: url("fonts/GothamProBold.ttf") format('truetype');
+    src: url("fonts/GothamProLight.ttf") format('truetype');
+    src: url("fonts/GothamProMedium.ttf") format('truetype');
+    src: url("fonts/GothamProRegular.ttf") format('truetype');
 }
 
 body {
     width: 100%;
-    font-family: "GothamProBold", Arial, sans-serif;
-
+    font-family: "GothamProRegular", Arial, sans-serif;
 }
 
 nav {
@@ -56,7 +58,8 @@ header .navbar-collapse{
 }
 
 #btn-call {
-    background-color: #ffc842;
+    /*background-color: #ffc842;*/
+    background: linear-gradient(to bottom, #F6EFD2, #ffc842);
     border: none;
     border-radius: 15px;
     color: #000;
@@ -71,9 +74,9 @@ header .navbar-collapse{
 
 #btn-main-call {
     text-transform: uppercase;
-    background-color: #ffc842;
+    background: linear-gradient(to bottom, #F6EFD2, #ffc842);
     color: #000;
-    border: none;
+    border: 3px solid #F6EFD2;
     border-radius: 10px;
     width: 300px;
     height: 50px;
@@ -104,6 +107,9 @@ header .navbar-dark .navbar-nav .nav-link{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    margin-top: 50px;
+    margin: 20px;
+    font-family: "GothamProBold" , Arial, sans-serif;
 }
 
 .lawyer {
@@ -228,7 +234,7 @@ header .navbar-dark .navbar-nav .nav-link{
     display: -o-flex;
     display: flex;
     justify-content: center;
-    margin-top: -200px;
+    margin-top: -180px;
 }
 
 .row-title {
@@ -297,8 +303,8 @@ header .navbar-dark .navbar-nav .nav-link{
     color: #fff;
 }
 
-.information {
-   
+.info-title {
+   font-family: "GothamProBold",Arial, sans-serif;
 }
 
 .information .items {
@@ -378,7 +384,7 @@ header .navbar-dark .navbar-nav .nav-link{
 }
 
 footer {
-    background-color: #eee5d8;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
     padding: 20px 0;
 }
 footer .map {
@@ -463,7 +469,6 @@ footer .items #item {
     height: 8%;
     /* margin: 10px auto; */
     position: absolute;
-    margin-top: -10px;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -471,12 +476,13 @@ footer .items #item {
 }
 
 .block-colol-black{
-    width: 10%;
-    height: 48%;
+    width: 11%;
+    height: 220px;
+    /* height: 48%; */
     position: relative;
+    top: 20px;
     left: 40px;
     background: #000;
-    margin-top: -150px;
 }
 
 .information .item{
@@ -488,12 +494,11 @@ footer .items #item {
 
 .block-text{
     color: orange;
-    font-size: 36px;
-    position: relative;
-    /* bottom: 0; */
+    position: absolute;
+    bottom: 0;
     /* top: 0; */
-    margin-top: 160px;
-    margin-left: 30px;
+    margin-left: 25px;
+    font-family: "GothamProBold", Arial, sans-serif;
 }
 
 .dm-overlay {
@@ -513,6 +518,7 @@ footer .items #item {
     color: #000;
     text-transform: uppercase;
     margin-top: 30px;
+    font-family: "GothamProBold", Arial, sans-serif;
 }
 /* активируем модальное окно */
 
@@ -529,6 +535,7 @@ footer .items #item {
     display: table;
     width: 100%;
     height: 100%;
+    font-family: "GothamProRegular", Arial, sans-serif;
 }
 /* ячейка блочной таблицы */
 
@@ -675,7 +682,6 @@ footer .items #item {
 }
 
 .sendBtn{
-    background-color: #f1a42d;
     margin-top: 10px;
     border-radius: 10px;
     border: none;
@@ -683,6 +689,7 @@ footer .items #item {
     text-align: center;
     margin-left: 15px;
     padding: 10px;
+    background: linear-gradient(to bottom, #F6EFD2, #ffc842);
 }
 
 .name{
